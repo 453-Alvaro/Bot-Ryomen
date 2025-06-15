@@ -4,7 +4,7 @@
   "description": "A WhatsApp Bot Created By Alvaro ryomen",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --Bot-ryomen",
+    "start": "pm2 start index.js --deep-monitoring --attach --name Bot-ryomen",
     "stop": "pm2 stop Bot-Ryomen",
     "restart": "pm2 restart Bot-Ryomen"
   },
